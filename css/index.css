@@ -76,6 +76,7 @@ header {
     justify-content: flex-start;
     align-items: center;
     padding-top: 30px;
+    width: 100%;
 }
 
 header nav {
@@ -96,7 +97,7 @@ header nav a:hover {
 }
 
 .top-image img {
-    padding: 30px 0px;
+    padding: 20px 0px;
 }
 
 .top-content {
@@ -211,4 +212,55 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+.about-page {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.fullWidth {
+    width: 100%;
+    padding: 15px;;
+    border-bottom: 1px dashed black;
+    padding-bottom: 30px;
+}
+
+.fullWidth h2 {
+    padding-bottom: 10px;
+}
+
+.fullWidth:last-of-type {
+    border-bottom: none;
+    margin-bottom: 30px;
+}
+
+.twoColumns {
+    width: 50%;
+    padding: 15px;
+    box-sizing: border-box;
+    border-bottom: 1px dashed black;
+}
+
+.twoColumns img {
+    width: 100%;
+    padding-top: 20px;
+}
+
+.twoColumns h2 {
+    margin-top: 20px;
+}
+
+.twoColumns a {
+    display: block;
+    text-decoration: none;
+    margin: 20px 0px;
+    border: 2px solid black;
+    width: fit-content;
+    text-align: center;
+    padding: 8px 25px;
+    border-radius: 7px;
+    color: black;
 }
